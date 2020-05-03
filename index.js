@@ -2,3 +2,6 @@
 var Faker = require('./lib');
 var faker = new Faker({ locales: require('./lib/locales') });
 module['exports'] = faker;
+console.log(faker.television.brand());
+console.log(faker.television.platform());
+console.log(faker.television.price());
